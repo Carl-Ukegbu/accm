@@ -33,24 +33,24 @@
 
 ## Quickstart
 
-	1. Install Python (Version 3.7.2)
-	2. Install PostgreSQL (Version 9.6.13)
-	3. Create a virtual environment with 'requirements.txt' file
-	4. Create PostgreSQL database with details from 'env.local.ps1' file
-	5. Open a powershell terminal in the main project folder containing the 'manage.py' file
-	6. Run command to create database tables and make all necessary data migrations
-	```sh
-	python manage.py makemigrations
-	python manage.py migrate
-	```
-	7. Run command to create a superuser user (input username, email, and password as required) to access the django admin page.
-	```bash
-	python manage.py createsuperuser
-	```
-	8. Run command to start the development server at port 3000
-	```bash
-	python manage.py runserver 3000
-	```
+1. Install Python (Version 3.7.2)
+2. Install PostgreSQL (Version 9.6.13)
+3. Create a virtual environment with 'requirements.txt' file
+4. Create PostgreSQL database with details from 'env.local.ps1' file
+5. Open a powershell terminal in the main project folder containing the 'manage.py' file
+6. Run command to create database tables and make all necessary data migrations
+```sh
+python manage.py makemigrations
+python manage.py migrate
+```
+7. Run command to create a superuser user (input username, email, and password as required) to access the django admin page.
+```bash
+python manage.py createsuperuser
+```
+8. Run command to start the development server at port 3000
+```bash
+python manage.py runserver 3000
+```
 
 
 
