@@ -56,5 +56,11 @@
 
 ## Current App Workflow
 
+### Generate a Node.js web app
+Run the generator from the command line
+```bash
+yo @veracity/veracity:node-webapp-demo
+```
+
 
 
