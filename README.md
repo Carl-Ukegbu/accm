@@ -39,10 +39,10 @@
 4. Create PostgreSQL database with details from 'env.local.ps1' file
 5. Open a powershell terminal in the main project folder containing the 'manage.py' file
 6. Run command to create database tables and make all necessary data migrations
-```sh
+	```sh
 	python manage.py makemigrations
 	python manage.py migrate
-```
+	```
 7. Run command to create a superuser user (input username, email, and password as required) to access the django admin page.
 ```bash
 	python manage.py createsuperuser
