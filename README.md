@@ -56,11 +56,7 @@
 
 ## Current App Workflow
 
-### Generate a Node.js web app
-Run the generator from the command line
-```bash
-python manage.py runserver 3000
-```
+
 
 
 
