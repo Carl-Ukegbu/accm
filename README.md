@@ -27,8 +27,8 @@
 - Chart Generation: [Highcharts](https://www.highcharts.com/)
 
 - General App Tools:
-	> - [Django Rest Framework](https://github.com/encode/django-rest-framework)
-	> - [Django Private Storage](https://github.com/edoburu/django-private-storage)
+	 - [Django Rest Framework](https://github.com/encode/django-rest-framework)
+	 - [Django Private Storage](https://github.com/edoburu/django-private-storage)
 
 
 ## Quickstart
@@ -39,7 +39,7 @@
 	4. Create PostgreSQL database with details from 'env.local.ps1' file
 	5. Open a powershell terminal in the main project folder containing the 'manage.py' file
 	6. Run command to create database tables and make all necessary data migrations
-		```bash
+		```sh
 		python manage.py makemigrations
 		python manage.py migrate
 		```
